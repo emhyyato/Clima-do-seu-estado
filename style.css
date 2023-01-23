@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #808080;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #C0C0C0;
+    font-family: sans-serif;
+}
+
+.busca {
+    width: 300px;
+    display: flex;
+}
+
+.busca button{
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.busca #searchInput {
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    padding: 10px;
+    flex: 1;
+    background-color: #444;
+}
+
+.busca button:hover {
+    background-color: #444;
+}
+
+.resultado {
+    width: 300px;
+    display: none;
+    border: 1px dotted #DCDCDC;
+    border-radius: 1rem;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #DCDCDC;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+
+.info .temp {
+    text-align: center;
+    flex: 1;
+}
+
+.info .vento {
+    text-align: center;
+    flex: 1;
+
+}
+
+.tempTitulo .ventoTitulo{
+    color: #777;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.tempInfo .ventoInfo{
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+.ventoArea{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:auto;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.ventoPonto{
+    width: 15px;
+    height: 1px;
+    background-color: #fff;
+    transform-origin: left;
+}
+
+.temInfo sup{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.aviso{
+    padding-top: 20px;
+    color: #fff;
+}
